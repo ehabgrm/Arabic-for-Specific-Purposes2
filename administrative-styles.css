@@ -1,0 +1,321 @@
+/* Administrative Arabic Specific Styles */
+
+.page-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('images/administrative-bg.jpg') center/cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.page-title h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-title p {
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* Program Overview */
+.program-overview {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.overview-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.overview-text {
+    flex: 1;
+}
+
+.overview-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.overview-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.overview-text ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.overview-text ul li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Language Focus */
+.language-focus {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.focus-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.focus-card:hover {
+    transform: translateY(-5px);
+}
+
+.focus-card i {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.focus-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.focus-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.focus-card ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #666;
+}
+
+.focus-card ul li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Curriculum */
+.curriculum {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.curriculum-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.module {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+    color: #3498db;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.module ul {
+    list-style: none;
+    padding: 0;
+}
+
+.module ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.module ul li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Language Skills */
+.language-skills {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.skill-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card i {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.skill-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.skill-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-card ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+.skill-card ul li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Features */
+.features {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: #666;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-title {
+        padding: 4rem 1rem;
+    }
+
+    .page-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .overview-content {
+        flex-direction: column;
+    }
+
+    .focus-grid,
+    .curriculum-content,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+}

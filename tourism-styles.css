@@ -1,0 +1,245 @@
+/* Tourism Arabic Specific Styles */
+
+.page-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('images/tourism-bg.jpg') center/cover;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.page-title h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-title p {
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* Program Overview */
+.program-overview {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.overview-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.overview-text {
+    flex: 1;
+}
+
+.overview-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.overview-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.overview-text ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.overview-text ul li::before {
+    content: "•";
+    color: #e67e22;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Course Details */
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.detail-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.detail-card:hover {
+    transform: translateY(-5px);
+}
+
+.detail-card i {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 1rem;
+}
+
+.detail-card h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.detail-card p {
+    color: #666;
+}
+
+/* Curriculum */
+.curriculum {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.curriculum-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.module {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+    color: #e67e22;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.module ul {
+    list-style: none;
+    padding: 0;
+}
+
+.module ul li {
+    position: relative;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.module ul li::before {
+    content: "•";
+    color: #e67e22;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+/* Features */
+.features {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.feature-card p {
+    color: #666;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #e67e22 0%, #f39c12 100%);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-title {
+        padding: 4rem 1rem;
+    }
+
+    .page-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .overview-content {
+        flex-direction: column;
+    }
+
+    .curriculum-content {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+}
